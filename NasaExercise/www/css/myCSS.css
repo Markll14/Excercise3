@@ -1,0 +1,29 @@
+
+.home-page {
+    height: 100vh;
+    background-size:contain ;
+    background-image: url("../Assets/faye-cornish-553422-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.myImage {
+    height: 90vh;
+    width: 100%;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+
+.copy {
+    font-size: 1rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link rel="stylesheet" href="./css/myCSS.css">
+        <link rel="stylesheet" href="./css/framework7.min.css">
+        <title>Nasa Launch Off</title>
+    </head>
+    <body>
+
+        <div id="app">
+                <!-- Your main view, should have "view-main" class -->
+                <div class="view view-main">
+              <!-- Initial Page, "data-name" contains page name -->
+                  <div data-name="home" class="page">
+                    <!-- Scrollable page content -->
+                    <div class="page-content">
+                      <h1 class="welcome">Welcome to the daily space pic</h1>
+                        
+                        <img class="myImage" id="td-image">
+
+                        <div class="info">
+                            <p class="title" id="td-title"></p>
+                            <p class="exp" id="td-explanation"></p>
+                            <p class="copy" id="td-copyright"></p>
+                        </div> 
+                      <div class="toolbar toolbar-bottom-md">
+                        <div class="toolbar-inner">
+                            <a href="#" class="link">Today's Image</a>
+                            <a href="/yesterday/" class="link">Yesterday's Image</a>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+        <script src="./js/framework7.min.js"></script>
+        <script src="./js/scripts.js"></script>
+        <script src="./js/apodapp-altpage.js"></script>
+        <script src="./js/apodapp.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
